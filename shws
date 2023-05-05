@@ -1,0 +1,9 @@
+#!/bin/bash
+
+apt update -y
+apt install gcc -y
+apt insall shc -y
+
+useradd -M sshwss -s /bin/false 
+ printf "sshws\nsshws" | sudo passwd sshwss 
+clear
